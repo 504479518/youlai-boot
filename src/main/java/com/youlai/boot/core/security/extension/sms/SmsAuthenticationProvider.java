@@ -61,13 +61,14 @@ public class SmsAuthenticationProvider implements AuthenticationProvider {
         }
 
         // 校验发送短信验证码的手机号是否与当前登录用户一致
-        String cachedVerifyCode = (String) redisTemplate.opsForValue().get(RedisConstants.SMS_LOGIN_CODE_PREFIX + mobile);
+        String cacheKey = StrUtil.format(RedisConstants.Captcha.SMS_LOGIN_CODE, mobile);
+        String cachedVerifyCode = (String) redisTemplate.opsForValue().get(cacheKey);
 
         if (!StrUtil.equals(inputVerifyCode, cachedVerifyCode)) {
             throw new CaptchaValidationException("验证码错误");
         } else {
             // 验证成功后删除验证码
-            redisTemplate.delete(RedisConstants.SMS_LOGIN_CODE_PREFIX + mobile);
+            redisTemplate.delete(cacheKey);
         }
 
         // 构建认证后的用户详情信息
