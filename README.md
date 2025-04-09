@@ -20,12 +20,12 @@
 ![](https://raw.gitmirror.com/youlaitech/image/main/docs/rainbow.png)
 
 <div align="center">
-  <a target="_blank" href="https://vue.youlai.tech/">🖥️ 在线预览</a> |  <a target="_blank" href="https://youlai.blog.csdn.net/article/details/145178880">📑 阅读文档</a> |  <a target="_blank" href="https://www.youlai.tech/">🌐 官网</a>
+  <a target="_blank" href="https://vue.youlai.tech/">🖥️ 在线预览</a> |  <a target="_blank" href="https://youlai.blog.csdn.net/article/details/145178880">📑 阅读文档</a> |  <a target="_blank" href="https://www.youlai.tech/youlai-boot">🌐 官网</a>
 </div>
 
 ## 📢 项目简介
 
-基于 JDK 17、Spring Boot 3、Spring Security 6、JWT、Redis、Mybatis-Plus、Knife4j、Vue 3、Element-Plus 构建的前后端分离单体权限管理系统。
+基于 JDK 17、Spring Boot 3、Spring Security 6、JWT、Redis、Mybatis-Plus、Vue 3、Element-Plus 构建的前后端分离单体权限管理系统。 [Mybatis-Flex 版本](https://gitee.com/youlaiorg/youlai-boot-flex)
 
 - **🚀 开发框架**: 使用 Spring Boot 3 和 Vue 3，以及 Element-Plus 等主流技术栈，实时更新。
 
@@ -33,26 +33,26 @@
 
 - **🔑 权限管理**: 基于 RBAC 模型，实现细粒度的权限控制，涵盖接口方法和按钮级别。
 
-- **🛠️ 功能模块**: 包括用户管理、角色管理、菜单管理、部门管理、字典管理等多个功能。
+- **🛠️ 功能模块**: 包括用户管理、角色管理、菜单管理、部门管理、字典管理等功能。
 
 ## 🌈 项目源码
 
-| 项目类型 | GitCode                        | Gitee                                                                 | Github                                                                 |
-|--------|----------------------------------|-----------------------------------------------------------------------|------------------------------------------------------------------------|
-| 后端      | [youlai-boot](https://gitcode.com/youlai/youlai-boot)   | [youlai-boot](https://gitee.com/youlaiorg/youlai-boot)                | [youlai-boot](https://gitee.com/haoxianrui/youlai-boot)                |
-| 前端    | [vue3-element-admin](https://gitcode.com/youlai/vue3-element-admin) | [vue3-element-admin](https://gitee.com/youlaiorg/vue3-element-admin) | [vue3-element-admin](https://github.com/youlaitech/vue3-element-admin) |
-| 移动端    | [vue-uniapp-template](https://gitcode.com/youlai/vue-uniapp-template) | [vue-uniapp-template](https://gitee.com/youlaiorg/vue-uniapp-template) | [vue-uniapp-template](https://gitcode.com/youlaitech/vue-uniapp-template)  |
+| 项目类型       | Gitee                                                        | Github                                                       | GitCode                                                      |
+| -------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ✅ Java 后端    | [youlai-boot](https://gitee.com/youlaiorg/youlai-boot)       | [youlai-boot](https://github.com/haoxianrui/youlai-boot)     | [youlai-boot](https://gitcode.com/youlai/youlai-boot)        |
+| vue3 前端      | [vue3-element-admin](https://gitee.com/youlaiorg/vue3-element-admin) | [vue3-element-admin](https://github.com/youlaitech/vue3-element-admin) | [vue3-element-admin](https://gitcode.com/youlai/vue3-element-admin) |
+| uni-app 移动端 | [vue-uniapp-template](https://gitee.com/youlaiorg/vue-uniapp-template) | [vue-uniapp-template](https://github.com/youlaitech/vue-uniapp-template) | [vue-uniapp-template](https://gitcode.com/youlai/vue-uniapp-template) |
 
-## 📚 文档地址
 
-| 文档类型 | 文档名称        | 地址                                                                                                                                                      |
-|----------|-------------|--------------------------------------------------------------------------------------|
-| 在线演示 | 项目在线演示      | 🌐 [https://vue.youlai.tech](https://vue.youlai.tech)                                                                                                   |
-| 接口文档 | Apifox 在线文档 | 📄 [https://www.apifox.cn/apidoc/shared-195e783f-4d85-4235-a038-eec696de4ea5](https://www.apifox.cn/apidoc/shared-195e783f-4d85-4235-a038-eec696de4ea5) |
-| 官方文档 |   项目文档       | 📚 [ https://www.youlai.tech/youlai-boot](https://www.youlai.tech/youlai-boot/)                                                                                                          |
-| 系统文档 | 全功能手册       | 📚 [https://youlai.blog.csdn.net/article/details/145178880](https://youlai.blog.csdn.net/article/details/145178880)                                     |
-| 系统文档 | 从0到1搭建指南    | 📚 [https://youlai.blog.csdn.net/article/details/145177011](https://youlai.blog.csdn.net/article/details/145177011)                                     |
 
+## 📚 项目文档
+
+| 文档名称          | 访问地址                                                                                   |
+|---------------|-------------------------------------------------------------------------------------------|
+| 在线接口文档        | [https://www.apifox.cn/apidoc](https://www.apifox.cn/apidoc/shared-195e783f-4d85-4235-a038-eec696de4ea5) |
+| 项目介绍与使用指南     | [https://www.youlai.tech/youlai-boot/](https://www.youlai.tech/youlai-boot/)              |
+| 功能详解与操作手册     | [https://youlai.blog.csdn.net/article/details/145178880](https://youlai.blog.csdn.net/article/details/145178880) |
+| 新手入门指南(项目0到1) | [https://youlai.blog.csdn.net/article/details/145177011](https://youlai.blog.csdn.net/article/details/145177011) |
 
 
 ## 📁 项目目录
@@ -121,12 +121,12 @@ youlai-boot
 
 ## 🚀 项目启动
 
-详细参考官方文档: [项目启动](https://www.youlai.tech/youlai-boot/1.%E9%A1%B9%E7%9B%AE%E5%90%AF%E5%8A%A8/)
+📚 完整流程参考: [项目启动](https://www.youlai.tech/youlai-boot/1.%E9%A1%B9%E7%9B%AE%E5%90%AF%E5%8A%A8/)
 
 1. **克隆项目**
 
    ```bash
-   git clone https://gitee.com/youlaiorg/youlai-boot.git
+   git clone https://gitee.com/youlaiorg/youlai-boot-flex.git
    ```
 
 2. **数据库初始化**
@@ -135,7 +135,7 @@ youlai-boot
 
 3. **修改配置**
 
-   [application-dev.yml](src/main/resources/application-dev.yml) 修改MySQL、Redis连接配置；
+   默认连接`有来`线上 MySQL/Redis（仅读权限），本地开发时请修改 [application-dev.yml](src/main/resources/application-dev.yml) 中的 MySQL 和 Redis 连接信息。
 
 4. **启动项目**
 
@@ -146,25 +146,22 @@ youlai-boot
 
 ## 🚀 项目部署
 
-参考官方文档: [项目部署](https://www.youlai.tech/youlai-boot/5.%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2/)
+参考官方文档: [项目部署指南](https://www.youlai.tech/youlai-boot/5.%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2/)
 
 
 ## ✅ 项目统计
 
-![Alt](https://repobeats.axiom.co/api/embed/544c5c0b5b3611a6c4d5ef0faa243a9066b89659.svg "Repobeats analytics image")
+![](https://repobeats.axiom.co/api/embed/544c5c0b5b3611a6c4d5ef0faa243a9066b89659.svg "Repobeats analytics image")
 
 Thanks to all the contributors!
 
-[![contributors](https://contrib.rocks/image?repo=haoxianrui/youlai-boot)](https://github.com/haoxianrui/youlai-boot/graphs/contributors)
+[![](https://contrib.rocks/image?repo=haoxianrui/youlai-boot)](https://github.com/haoxianrui/youlai-boot/graphs/contributors)
 
 
 ## 💖 加交流群
 
-> **关注「有来技术」公众号，点击菜单“交流群”获取加群二维码。**
->
-> 如果二维码过期，请加微信(haoxianrui)备注「前端」、「后端」或「全栈」拉你进群。
->
-> 交流群仅限技术交流，为过滤广告营销暂设此门槛，感谢理解与配合
+① 关注「有来技术」公众号，点击菜单 **交流群** 获取加群二维码（此举防止广告进群，感谢理解和支持）。
 
-![有来技术公众号二维码](https://foruda.gitee.com/images/1737108820762592766/3390ed0d_716974.png)
+② 直接添加微信 **`haoxianrui`** 备注「前端/后端/全栈」。
 
+![有来技术公众号](https://foruda.gitee.com/images/1737108820762592766/3390ed0d_716974.png)  
